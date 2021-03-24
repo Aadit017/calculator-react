@@ -11,7 +11,7 @@ export default function Button() {
         setResult(eval(result));
     }
     const clear=()=>{
-        setResult(0)
+        setResult(" ")
     }
     const [result ,setResult ]=useState("")
     return (
@@ -35,3 +35,4 @@ export default function Button() {
         </div>
     )
 }
+// the main reason we have h1 here is because react has one way data binding 
